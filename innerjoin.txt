@@ -1,0 +1,16 @@
+Student (studentId, firstName, lastname)
+Exam (examId, name, date)
+Grade (gradeId, fk_studentId, fk_examId, grade)
+
+
+Inner join with 3 tables in mysql
+
+SELECT Student.firstname,
+       Student.lastname,
+       Exam.name,
+       Exam.date,
+       Grade.grade
+  FROM Grade
+ INNER JOIN Student ON Student.studentId = Grade.fk_studentId
+ INNER JOIN Exam ON Exam.examId = Grade.fk_examId
+ ORDER BY Exam.date

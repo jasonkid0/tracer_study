@@ -1,0 +1,14 @@
+To do lists: Capstone 
+
+
+database design
+	Table lists: student, course, year/month graduated, 
+
+UI design
+
+	authentication system
+		Registration, Login
+ 		-validation (email(no duplicate), username(no duplicate), password(forgot password thru email))
+ 		Main page(index.php/html)
+		Admin Page
+		Alumni Page

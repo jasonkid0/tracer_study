@@ -1,0 +1,23 @@
+SFAC-WBGTSAT
+
+RDBMS (note: some child table should be separated per course)
+
+childTable:
+
+1. alumni (lname,fname,mname, email, telno, mobileno
+2. course (BSCS, BSBA, BSED, BSHRM)
+3. yearGraduated (2001, 2002, 2003,2009 etc...
+4. questionnaire (?)
+5. civil status (Single, Married, Widowed etc..)
+6. gender (Male, Female)
+7. employmentStatus (employed, not-employed, self-employed)
+8. firstJobAcquired (less than a month, 1-6 months, 7-11 months, 1year to less than 2 years, etc...
+9. typeEmploymentStatus (full time/permanent/regular, part time, probationary, temporary/casual)
+10. jobListings (Programmer, IT/Software Engineer, Process Engineer, Teacher 1, Master Teacher 1
+11. skillsAcquiredAmongGraduates (problem Solving, communication, critical thinking, research, application software etc...
+12. valuesDevelopedAmongGraduates (Commitment, Faith, Hope, Honesty, Diligence, Compassion, Competence, etc...
+13. trainingAcquiredAmongGraduates (Extremely Useful, Very Useful, Somewhat Useful, Not Useful)
+14. subjects (Software Engineering, SAD, Special Project, Principles of Management, Education Technology, Physics etc....
+15. 
+
+parentTable: (Transaction Table)
